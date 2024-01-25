@@ -1,0 +1,397 @@
+.icon{
+    width: 56px;
+    height: 57px;
+}
+
+
+.anjay{
+    display: flex;
+}
+
+.anjay h3{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    background: rgb(72, 65, 107);
+    color: aliceblue;
+    border-style: none;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background: rgb(50, 43, 82) ;
+}
+
+.main-signin-header h2{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+/* rainbow */
+@keyframes drawLine1 {
+    0% {
+      stroke-dashoffset: -940px;
+    }
+  
+    100% {
+      stroke-dashoffset: 0px;
+    }
+  }
+  
+  @keyframes drawLine2 {
+    0% {
+      stroke-dashoffset: -735px;
+    }
+  
+    100% {
+      stroke-dashoffset: 0px;
+    }
+  }
+  
+  @keyframes drawLine3 {
+    0% {
+      stroke-dashoffset: -940px;
+    }
+  
+    100% {
+      stroke-dashoffset: 0px;
+    }
+  }
+  
+  @keyframes flicker1 {
+    0% {
+      stroke: #ff005d;
+    }
+  
+    1% {
+      stroke: transparent;
+    }
+  
+    3% {
+      stroke: transparent;
+    }
+  
+    4% {
+      stroke: #ff005d;
+    }
+  
+    6% {
+      stroke: #ff005d;
+    }
+  
+    7% {
+      stroke: transparent;
+    }
+  
+    13% {
+      stroke: transparent;
+    }
+  
+    14% {
+      stroke: #ff005d;
+    }
+  
+    100% {
+      stroke: #ff005d;
+    }
+  }
+  
+  @keyframes flicker2 {
+    0% {
+      stroke: #ff005d;
+    }
+  
+    50% {
+      stroke: #ff005d;
+    }
+  
+    51% {
+      stroke: transparent;
+    }
+  
+    61% {
+      stroke: transparent;
+    }
+  
+    62% {
+      stroke: #ff005d;
+    }
+  
+    100% {
+      stroke: #ff005d;
+    }
+  }
+  
+  @keyframes flicker3 {
+    0% {
+      stroke: #ff005d;
+    }
+  
+    1% {
+      stroke: transparent;
+    }
+  
+    10% {
+      stroke: transparent;
+    }
+  
+    11% {
+      stroke: #ff005d;
+    }
+  
+    40% {
+      stroke: #ff005d;
+    }
+  
+    41% {
+      stroke: transparent;
+    }
+  
+    45% {
+      stroke: transparent;
+    }
+  
+    46% {
+      stroke: #ff005d;
+    }
+  
+    100% {
+      stroke: #ff005d;
+    }
+  }
+  
+  @keyframes flicker4 {
+    0% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  
+    30% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  
+    31% {
+      color: #12000a;
+      text-shadow: 0px 0px 4px #12000a;
+    }
+  
+    32% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  
+    36% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  
+    37% {
+      color: #12000a;
+      text-shadow: 0px 0px 4px #12000a;
+    }
+  
+    41% {
+      color: #12000a;
+      text-shadow: 0px 0px 4px #12000a;
+    }
+  
+    42% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  
+    85% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+    86% {
+      color: #12000a;
+      text-shadow: 0px 0px 4px #12000a;
+    }
+  
+    95% {
+      color: #12000a;
+      text-shadow: 0px 0px 4px #12000a;
+    }
+  
+    96% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  
+    100% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  }
+  
+  @keyframes fadeInText {
+    1% {
+      color: #12000a;
+      text-shadow: 0px 0px 4px #12000a;
+    }
+  
+    70% {
+      color: #ff005d;
+      text-shadow: 0px 0px 14px #ff005d;
+    }
+  
+    100% {
+      color: #ff005d;
+      text-shadow: 0px 0px 4px #ff005d;
+    }
+  }
+  
+  @keyframes hueRotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+  
+    50% {
+      filter: hue-rotate(-120deg);
+    }
+  
+    100% {
+      filter: hue-rotate(0deg);
+    }
+  }
+  
+  @keyframes smoothTextSlide {
+    0% {
+      transform: rotate(5deg);
+    }
+  
+    25% {
+      transform: rotate(-5deg);
+    }
+  
+    50% {
+      transform: rotate(5deg);
+    }
+  
+    75% {
+      transform: rotate(-5deg);
+    }
+  
+    50% {
+      transform: rotate(5deg);
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  @keyframes wave {
+    2% {
+      transform: translateX(1);
+    }
+  
+    35% {
+      transform: translateX(-25%);
+    }
+  
+    50% {
+      transform: translateX(-50%);
+    }
+  
+    75% {
+      transform: translateX(-25%);
+    }
+  
+    100% {
+      transform: translateX(1);
+    }
+  }
+
+  /* ======================= General Styles ======================= */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --bg-primary: rgb(220, 220, 220);
+    --bg-secondary: rgb(37, 37, 37);
+    --bg-transparent: rgba(37, 37, 37, 0.6);
+    --text-color-primary: rgb(83, 143, 133);
+    --text-color-secondary: rgb(52, 211, 182);
+    --text-color-hover: rgb(53, 182, 158);
+  }
+  
+  body {
+    background: linear-gradient(
+      315deg,
+      rgb(25, 30, 39) 3%,
+      rgb(30, 58, 77) 38%,
+      rgb(3, 0, 44) 68%,
+      rgb(28, 44, 43) 98%
+    );
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    color: var(--text-color-primary);
+    font-family: "Poppins", sans-serif;
+    animation: gradient 15s ease infinite;
+  }
+  
+  ::selection {
+    background: var(--text-color-secondary);
+    color: var(--text-color-primary);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+  }
+  
+  a:hover {
+    color: var(--text-color-hover);
+  }
+  
+  /* ======================= Background Animations ======================= */
+  
+  .wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 5em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.3;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .wave:nth-of-type(2) {
+    bottom: -1em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.2;
+  }
+  
+  .wave:nth-of-type(3) {
+    bottom: -2em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.4;
+  }
+  

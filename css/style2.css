@@ -1,0 +1,10 @@
+.kaluar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hihi{
+    background: red;
+    width: 30rem;
+}
